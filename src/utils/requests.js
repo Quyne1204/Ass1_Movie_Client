@@ -1,5 +1,5 @@
-const API_KEY = '504b85f6fe0a10a9c7f35945e14e7ddf';
-const http = "http://localhost:5000/api/movies";
+
+const http = "http://ass1-movie-backend.onrender.com//api/movies";
 const requests = {
 	fetchTrending: `${http}/trending`,
 	fetchNetflixOriginals: `${http}/listMovieTv`,

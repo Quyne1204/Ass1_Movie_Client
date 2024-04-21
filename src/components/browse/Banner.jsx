@@ -15,7 +15,7 @@ function Banner() {
 				redirect: "follow"
 			};
 
-			fetch("http://localhost:5000/api/movies/listMovieTv", requestOptions)
+			fetch("http://ass1-movie-backend.onrender.com//api/movies/listMovieTv", requestOptions)
 				.then((response) => response.json())
 				.then((item) =>
 					setMovie(
